@@ -1,0 +1,341 @@
+<html>
+
+<head>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.flex-container1 {
+           width: 400px;
+           height: 50px;
+           display: flex;
+           margin-left:auto;
+           margin-right:auto;
+        }
+ 
+		.flex-item1 {
+           width: 90px;
+           height: 25px;
+           margin: auto;
+           font-size:22px;
+		   font-weight:bold;
+		   color:#c71B0a ;
+           align-items:center;
+           /*padding-top:80px;*/
+		}
+
+		.flex-container2{
+               width:900px;
+               height:60px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-top:0px;
+               flex-wrap: wrap;
+               align-items: center;
+			}
+ 
+        .flex-item2{
+               width:350px;
+               height:120px;
+               display:flex;
+			} 
+ 
+           .flex-container3{
+               width:80px;
+               height:50px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               flex-wrap: wrap; 
+			}
+ 
+           .flex-item3{
+               width:40px;
+               height:40px;
+               display:flex;
+			}
+ 
+           .flex-footer{
+               width:100%;
+               height:400px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-bottom:0;
+               padding-bottom:0;
+               flex-wrap: wrap;
+               justify-content: center;
+               align-items: center;
+               background-color: black;
+			}
+                
+           
+           .item-footer{
+               width:340px;
+               height:300px;
+               font-size:20px;
+               line-height:1.5;
+               margin-right:50px;
+               margin-left:50px;
+               padding-top:100px;
+               color:white;
+               display:flex;
+			}
+ 
+           .flex-aboutus{
+               width:340px;
+               height:300px;
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: flex-start;         
+			}
+ 
+           .item-aboutus{
+               width:340;
+               display:flex;
+               margin-bottom:10px;
+               text-align:justify;
+			}
+
+
+		h1.title {
+			font-size:55px;
+			font-weight: bold;
+			margin-top:30px;
+			line-height: 1.5;
+			color: black;
+		}
+
+		h2.subtitle {
+           font-size: 20px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:10px;
+           width:120px;
+		   margin-left:220px;
+           margin-bottom:10px;
+        }
+
+		h3 {
+			font-size: 20px;
+			line-height: 2;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-weight: bold;
+		}
+
+		.paragraph {
+            color: #494949;
+            line-height: 2;
+            font-size: 18px;
+            margin-top: 20px;
+     	}
+
+		.author-name {
+           font-size: 20 px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:0.03px;
+           width:60px;
+        }
+
+		.hover-color-will-change:hover {
+           color: #c71B0a
+        }   
+ 
+        .hover-nav-color-will-change:hover{
+               color:white;
+               background-color:#c71B0a;
+		}  
+ 
+        .hover-footer-color-will-change:hover{
+               color:rgb(150, 14, 1);
+               background-color: white;
+		} 
+
+		.text-block {
+			width: 800px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+		figure {
+			width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+		.fig-blockquote{
+			width:800px;
+			height:auto;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+		.video-audio {
+			width: 550px;
+			height: auto;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+		
+	    ::selection {
+               background: #9e733e;
+               color: white;
+			}
+
+        ::-moz-selection {
+               background:#9e733e;
+               color: white;
+			} 
+
+		</style>
+       <title>流浪者 Wanderers</title>
+       <link rel="shortcut icon" href="logo.png">
+   </head>
+
+   <body>
+	<article style="padding-top:10px;">
+		<header>
+
+		 <!-- nav bar -->
+		 <div class="flex-container2">
+			<!-- logo -->
+		   <div class="flex-item2">
+			   <img height="120" width="120" src="logo.png" style="padding-left:40px;"></img>
+		   </div>
+		   <div class="flex-item2"style="padding-top:70px;">
+			   <div class="flex-container1">
+					   <div class="flex-item1 hover-nav-color-will-change">音樂職人</div>
+					   <div class="flex-item1 hover-nav-color-will-change">社會議題</div>
+					   <div class="flex-item1 hover-nav-color-will-change">藝界視角</div>
+		   </div>
+		   </div>
+		   </div>
+	   </div>
+
+			<!-- 小標 -->
+			<div width="800" height="50" style="margin-left:auto; margin-right:auto; margin-top:150px;">
+			<h2 class="subtitle text-block">六四學運領袖</h2>
+			<!-- 大標 -->
+			<h1 class="title text-block">吾爾開希：三十年的誓死不從</br>
+            為自由而活的流亡之路
+			</h1>
+</h1>
+		</header>
+
+	
+
+		<!-- 首圖 -->
+		<figure class="吾爾開希">
+			<img height="720" src="01.jpg" width="1080" style="margin-top:40px; margin-bottom: 40px"></img>
+		</figure>
+		<div class="paragraph text-block">
+        <span><strong>文</strong></span>
+       <a href="https://www.facebook.com/longlong.lee.397" style="text-decoration:none; color:black;"><span class="author-name">李卓朗</span></a>
+        <span style="margin-left:5px;"><strong>攝影</strong></span>
+       <a href="https://www.facebook.com/gaylogbook/" style="text-decoration:none; color:black;"><span class="author-name">蕭岷峯/吾爾開希提供</span></a>
+        <span style="margin-left:20px;">2019.04.29</span>
+        </div>
+
+		<p class="paragraph text-block">
+         1989 年的六四天安門事件，令吾爾開希展開了近30年的流亡生涯，他曾先後在舊金山、波士頓、巴黎及紐約居住，最終命運的安排令他選擇定居台灣。如今，台灣已成為他居住最久的國家，但對於家鄉新疆和他所成長的北京，他的思念卻始終不變。
+	    </p>
+
+		<h3 class="subtitle text-block">回顧 89 年的魯莽與熱情</h3>
+
+        <p class="paragraph text-block">
+        吾爾開希稱自己已是一個灰白頭髮、灰白鬍子的中年人，對於30年前的自己首先想到的名詞是「年輕」，「年輕有年輕的特色，包括魯莽但是熱情，然後有理想性，我們那一代中國青年人的共通特色。」他表示當年在資源和資訊匱乏的中國社會，不僅沒有搖滾樂、電影、文學，更沒有社會議題的關注，而且成長時經歷了文革、並接受共產理想主義的教育，令他們那一代的年輕人脫離不開理想性，他說：「理想主義幾乎是個精神鴉片，在貧乏中因為有理想而仍然覺得自己是最幸福的。」
+		</p>
+
+        <p class="paragraph text-block">
+        80年代是中國的黃金時代，「一切都在改變，一切變得很有希望。」他認為，1979年的改革開放使年輕人接觸到了不一樣的外在世界，接觸到自由主義、個人主義並開始思考，這樣的衝擊使他們對未來充滿憧憬，加上東方集體主義的影響，令他們容易產生對國家的責任感和抱負。他形容當年的自己是「一個年輕的理想主義者，對於理想是什麼的強烈渴望和思考的狀態。」
+		</p>
+
+        <h3 class="subtitle text-block">鎮壓後的逃亡之旅</h3>
+
+		<p class="paragraph text-block">
+        從六四天安門的軍事鎮壓後，北京市公安局便發表了通緝名單，位列第一的是王丹，吾爾開希則是位列第二，就這樣他與一眾學運領袖成為了中華人民共和國的通緝犯。吾爾開希說當時在北京街頭的一個傳言是說「王丹要活的，不要死的，吾爾開希要死的，不要活的。」當時給解放軍下的命令是格殺，他認為這很符合共產黨的理，因為法庭判死刑是很困難的，而且官方想以殺人來立威和建立恐懼。他笑言：「所以就是說我89年時候的逃亡是逃命，因為不離開北京的話可能會被打死。」
+		</p>
+
+		<p class="paragraph text-block">
+        然而，吾爾開希對於能夠順利逃離中國並不抱有信心，在中國的環境下，他從沒聽說有關政治逃亡的先例，但希望至少不要在北京被抓。而且打開當時政治地圖，並沒有什麼地方可以逃的，唯一可能在逃出去之後獲得自由的只剩下英殖的香港。因此當時他一路南下，先逃到珠海，然後從珠海坐船到了香港「那個船不能靠岸，所以要游泳游到船上，然後到了船上之後快艇一路上到了香港，這過程說驚險應該也還算驚險吧」之後取得法國的政治庇護，又去了美國讀書，最後選擇了定居在台灣。
+		</p>
+
+        <figure class="吾爾開希">
+			<img height="720" src="03.jpg" width="1080" style="margin-top:40px; margin-bottom: 40px"></img>
+		</figure>
+
+        <h3 class="subtitle text-block">三十年的被迫離家出走</h3>
+
+        <p class="paragraph text-block">
+         89 年離開中國後，吾爾開希就再也沒有回過家，也無法踏入中國的領土，他在中國的父母多年來未能獲批護照，使他三十年來都沒有機會與家人團聚，也因此他從2009年起向各國的中國大使館自首投案，希望能重返中國與家人見面，然而，他卻連中國大使館的門都進不去，他說：「我現在還是中國的一個通緝犯，通緝的意思英文叫『most wanted』翻譯成中文是『最想要的、最想要抓起來的』結果我這個『most wanted』變成『most unwanted』也是很好笑的一件事情。」
+		</p>
+
+        <p class="paragraph text-block">
+        之後他又更正了他的話，「不要講好笑，應該講是荒謬。」他認為無法與家人見面是一種精神的酷刑，「人可以照樣保持樂觀、信心、開朗、愉快，這些都沒問題，但內心深處流亡者一定有深層的痛苦，對家鄉的想念、對家人的想念那是自然的，必然會是痛苦的根源之一。」除此之外，他認為他的權利被剝奪了，回家是天經地義的權利，權利被剝奪的這件事情使他感到憤怒。
+		</p>
+	
+        <p class="paragraph text-block">
+        面對中國政府的避之唯恐不及，吾爾開希卻認為他們怕的始終是對話。如果官方要起訴他，便要給他答辯的機會，而法庭便成為雙方對話的平台。吾爾開希認為雖然對話的本身是簡單的，「但是實際上想一想，中國政府當然會害怕對話，哪一個議題上，你跟他對話他能贏呢?」無論是1989年的學生運動，還是2014年的雨傘運動，兩代人提出的訴求都只是對話，然而，這個看似簡單的訴求卻都被拒絕了。
+		</p>
+
+		<figure class="吾爾開希">
+			<img height="720" src="02.jpg" width="1000" style="margin-top:40px; margin-bottom: 40px"></img>
+		</figure>
+
+          <!-- 手寫抽言 -->
+       <figure class="fig-blockquote">
+        <img width="800px;"src="kaisi.png" style="margin-top:20px;" ></img>
+        </figure>
+
+		<h3 class="subtitle text-block">天理昭昭　暴政必亡</h3>
+
+		<p class="paragraph text-block">
+		吾爾開希在北京出生長大，每逢朋友來台，他總是會請朋友帶些道地的北京食物，他說：「每個人都會跟我說，開希你還這麼想念北京，我說會啊，然後他們就會跟我說，北京現在很糟，根本不直得你去，你肯定會很討厭北京」。就連吾爾開希都相信自己會討厭現在的北京，然而卻不減這個城市對他吸引力，他始終希望能親身到北京，在成長的地方走走，呼吸北京那完全不值得呼吸的空氣。而對於家鄉新疆，吾爾開希則說：「對那個土地魂牽夢縈應該不為過，常常也會進入我的夢中，確實是非常美的一塊土地。」
+		</p>
+
+		<p class="paragraph text-block">
+		如果有機會回國，「首先應該是祈求父母原諒，擁抱家人，然後繼續跟中國政府對話。」至於是否能等到那一天呢? 吾爾開希則是對回國充滿信心，他認為「這樣的一個政府，這樣殘暴不仁不義，對全世界都是威脅的政府，不倒台，沒有天理。」但他表示天理有自己有速度和邏輯，作為流亡者，必須要抱持著這種信心，可能再等個十年或二十年吧。
+        </p>
+
+	<!-- footer-->
+<div class="flex-footer">
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change" style="font-size: 25px; font-weight: bold; background-color: rgb(150, 14, 1); color:white;">
+			&nbsp;關於我們
+			</div>
+			<div class="item-aboutus" style="font-size: 18px;">
+				2019年6月27日《流浪者》預告上線，正式上線目前遙遙無期。
+				本站將帶領閱聽者看見流浪的萬般姿態，認識不同領域的「流浪者」，了解他們心之所向。
+			</div>
+		</div>
+	</div>
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change"style="font-size: 25px; font-weight: bold; background-color:rgb(150, 14, 1); color:white;">
+			&nbsp; 聯絡我們  
+			</div>
+			<div class="item-aboutus"style="padding-bottom:30px;font-size: 18px;">
+			地址：政治大學 校友中心</br>
+			電話：02-2939-3091</br>
+			信箱：wanderers@nccu.edu.tw
+			</div>
+		</div>
+	</div>
+</div>
+ 
+</article>
+</body>
+</html>
+
