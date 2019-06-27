@@ -1,0 +1,357 @@
+<html>
+
+<head>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.flex-container1 {
+           width: 400px;
+           height: 50px;
+           display: flex;
+           margin-left:auto;
+           margin-right:auto;
+        }
+ 
+		.flex-item1 {
+           width: 90px;
+           height: 25px;
+           margin: auto;
+           font-size:22px;
+		   font-weight:bold;
+		   color:#c71B0a ;
+           align-items:center;
+           /*padding-top:80px;*/
+		}
+
+		.flex-container2{
+               width:900px;
+               height:60px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-top:0px;
+               flex-wrap: wrap;
+               align-items: center;
+			}
+ 
+        .flex-item2{
+               width:350px;
+               height:120px;
+               display:flex;
+			} 
+ 
+           .flex-container3{
+               width:80px;
+               height:50px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               flex-wrap: wrap; 
+			}
+ 
+           .flex-item3{
+               width:40px;
+               height:40px;
+               display:flex;
+			}
+ 
+           .flex-footer{
+               width:100%;
+               height:400px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-bottom:0;
+               padding-bottom:0;
+               flex-wrap: wrap;
+               justify-content: center;
+               align-items: center;
+               background-color: black;
+			}
+                
+           
+           .item-footer{
+               width:340px;
+               height:300px;
+               font-size:20px;
+               line-height:1.5;
+               margin-right:50px;
+               margin-left:50px;
+               padding-top:100px;
+               color:white;
+               display:flex;
+			}
+ 
+           .flex-aboutus{
+               width:340px;
+               height:300px;
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: flex-start;         
+			}
+ 
+           .item-aboutus{
+               width:340;
+               display:flex;
+               margin-bottom:10px;
+               text-align:justify;
+			}
+
+            
+
+		h1.title {
+			font-size:55px;
+			font-weight: bold;
+			margin-top:30px;
+			line-height: 1.5;
+			color: black;
+		}
+
+		h2.subtitle {
+           font-size: 20px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:10px;
+           width:80px;
+		   margin-left:220px;
+           margin-bottom:10px;
+        }
+
+		h3 {
+			font-size: 20px;
+			line-height: 2;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-weight: bold;
+		}
+
+		.paragraph {
+            color: #494949;
+            line-height: 2;
+            font-size: 18px;
+            margin-top: 20px;
+     	}
+
+		.author-name {
+           font-size: 20 px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:0.03px;
+           width:60px;
+        }
+
+		.hover-color-will-change:hover {
+           color: #c71B0a
+        }   
+ 
+        .hover-nav-color-will-change:hover{
+               color:white;
+               background-color:#c71B0a;
+		}  
+ 
+        .hover-footer-color-will-change:hover{
+               color:rgb(150, 14, 1);
+               background-color: white;
+		} 
+
+		.text-block {
+			width: 800px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+		figure {
+			width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+        .fig-blockquote{
+			width:800px;
+			height:auto;
+			margin-left:auto;
+			margin-right:auto;
+
+		}
+
+		.video-audio {
+			width: 550px;
+			height: auto;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+		
+	    ::selection {
+               background: #9e733e;
+               color: white;
+			}
+
+        ::-moz-selection {
+               background:#9e733e;
+               color: white;
+			} 
+
+		</style>
+       <title>流浪者 Wanderers</title>
+       <link rel="shortcut icon" href="logo.png">
+   </head>
+
+
+ 
+<body>
+    <article style="padding-top:10px;">
+        <header>
+     <!-- nav bar -->
+		 <div class="flex-container2">
+			<!-- logo -->
+		   <div class="flex-item2">
+			   <img height="120" width="120" src="logo.png" style="padding-left:40px;"></img>
+		   </div>
+		   <div class="flex-item2"style="padding-top:70px;">
+			   <div class="flex-container1">
+					   <div class="flex-item1 hover-nav-color-will-change">音樂職人</div>
+					   <div class="flex-item1 hover-nav-color-will-change">社會議題</div>
+					   <div class="flex-item1 hover-nav-color-will-change">藝界視角</div>
+		   </div>
+		   </div>
+		   </div>
+	   </div>
+
+			<!-- 小標 -->
+			<div width="800" height="50" style="margin-left:auto; margin-right:auto; margin-top:150px;">
+            <h2 class="subtitle">向海詩人</h2>
+            <!-- 大標 -->
+            <h1 class="title text-block">創作是孤獨的行軍</br>任明信的生命之歌
+</h1>
+        </header>
+ 
+        <!-- 首圖 -->
+        <figure class="iris">
+			<img height="auto" src="fullbody.jpg" width="1000" style="margin-top:40px; margin-bottom: 40px"></img>
+		</figure>
+        <div class="paragraph text-block">
+        <span><strong>文</strong></span>
+       <a href="https://www.facebook.com/profile.php?id=100000536675519" style="text-decoration:none; color:black;"><span class="author-name hover-color-will-change">謝佩旻</span></a>
+        <span style="margin-left:5px;"><strong>攝影</strong></span>
+       <a href="https://www.facebook.com/yan.j.jia.1" style="text-decoration:none; color:black;"><span class="author-name hover-color-will-change">嚴佳佳</span></a>
+        <span style="margin-left:20px;">2019.04.29</span>
+        </div>
+ 
+        
+       <p class="paragraph text-block">
+       <span style="font-style:italic;">喜歡你在這裡</span><br>
+       <span style="font-style:italic;">陪天空散步</span><br>
+       <span style="font-style:italic;">跟雲玩躲貓貓</span><br>
+       <span style="font-style:italic;">漂流木</span><br>
+       <span style="font-style:italic;">像散落的肋骨</span><br>
+       <span style="font-style:italic;">它們曾是誰的另一半</span><br>
+ 	   </p>
+ 
+        <p class="paragraph text-block">
+       <span style="font-style:italic;">太陽的溫柔</span><br>
+       <span style="font-style:italic;">讓我脫下外套</span><br>
+        <span style="font-style:italic;">你只要一個眼神就辦到</span><br>
+        </p>
+ 
+        <p class="paragraph text-block">
+            秋末的週日午後，踏入巷弄中的咖啡廳，任明信以一襲黑從容地出現，彷彿能嗅到他身上那股獨特的生命氣息。從袖口可以看見他手臂上的刺青，只見他用再尋常不過的語氣拿起 menu 問道：「想要喝什麼嗎？」此刻的他如武功高深的道士，帶領我們走入他修行的山林。
+        </p>
+        <h3 class="subtitle text-block">沾染咖啡香氣的詩人</h3>
+        <p class="paragraph text-block">
+            這裡是任明信曾經工作的咖啡館，對他而言，咖啡與寫作可說是密不可分。他的詩集<a href=https://www.books.com.tw/products/0010599108 style="text-decoration:none; color:black;"><span class="author-name">《你沒有更好的命運》</span></a>、<a href=https://www.books.com.tw/products/0010688840 style="text-decoration:none; color:black;"><span class="author-name">《光天化日》</span></a>中的許多作品便是在咖啡廳工作時寫下的。談起他與咖啡的邂逅，回溯到大學時期。
+        </p>
+        <p class="paragraph text-block">
+            任明信當時就讀中央大學財經學系，直到三年級時，他發現自己對於專業沒有熱情，不想考研究所、公職，更不想為了生存而找份不喜歡的工作。一天，他來到書店，用近乎「抓周」的方式，翻閱架上的各類書籍。他對自己說：「今天回去的時候帶什麼書去結帳，以後就從事那項工作。」最後，他和散文《流離》相遇。一直以來喜愛書寫的他，從此走向這條人煙稀少的道路。
+        </p>
+        <p class="paragraph text-block">
+            然而，在轉換方向的過程中，他也曾經歷一段在黑暗中摸索的時光。決心書寫後，他意識到四年換來的一張文憑將變成廢紙，便有了學咖啡的念頭。他在校園裡的咖啡館打工，開啟他對咖啡的認識，往後更有將近八年的時間都在咖啡廳裡度過，他將之形容為「扮裝」。
+        </p>
+ 
+        <!-- 圖 -->
+        <figure class="明信">
+			<img height="auto" src="face.jpg".jpg width="1000" style="margin-top:20px; margin-bottom: 20px"></img>
+		</figure>
+ 
+        <h3 class="subtitle text-block">書寫是身體的反饋機制</h3>
+ 
+        <p class="paragraph text-block">
+            「寫字像是排泄或嘔吐，是生理現象，是生活的一部分。」回溯生命歷程，任明信從國中起養成寫日記的習慣，他寫下專屬青春的騷動、寫下對未來的困惑與徬徨。書寫形同一套反饋機制，在物質上得不到的，他便從文字的汪洋中擷取。
+        </p>
+        <p class="paragraph text-block">
+            真正有自覺的創作，始於大學時期，任明信在網路上、書籍中大量欣賞他人的詩作，發覺自己的作品「不像散文、不像小說，可能會是詩」；進入東華大學創作暨英美語文研究所後，他建立了更加嚴謹的創作觀，然而，也因為接觸太多優秀的文學作品，任明信的評鑑水準大於創作水準，使他有一年半的時間無法提起筆。直至在課程中讀到福樓拜的《包法利夫人》，他著迷於作者描寫事物的能力，突然想要為其中的角色寫下一首詩，終於突破漫長的撞牆期。而後，畢業作品《你沒有更好的命運》也隨之誕生。
+        </p>
+        <p class="paragraph text-block">
+            「對我來說，作品不一定需要觀眾。或者只有一個觀眾，就是我自己。」任明信認為，自己便是最重要的讀者，他會在創作完成後，將自己轉換為讀者的狀態，與「另一個我」進行內部對話。他一讀再讀，反覆思索哪些部分需要調整，直到無法修改才算完成。他說：「像是電影導演，我看見了某個珍貴的畫面，選擇讓它們出現在鏡頭裡。」他期望自己無論在任何狀態、情緒下閱讀這些作品，都能馬上進入情境，體會當下的感受。
+        </p>
+       <!-- 手寫抽言 -->
+       <figure class="fig-blockquote">
+        <img width="800px;"src="ming.png" style="margin-top:20px;" ></img>
+        </figure>
+ 
+        <h3 class="subtitle text-block">海的房間：世界盡頭的頓悟時分</h3>
+ 
+        <p class="paragraph text-block">
+            在咖啡廳裡的日子不斷複製貼上，重複而規律的生活令任明信開始對眼中一切感到失望。在完成第二本詩集《光天化日》後，他發現自己只想結束「現在」，彷彿所有事情都是為了完成而完成，便決定離職。「我的詩句裡時常出現海、草、魚等自然意象，卻想不起來自己上次好好看海是什麼時候。」
+        </p>
+ 
+        <p class="paragraph text-block">
+            於是，他出走了，走向那片東岸的海。任明信有些害臊地說到：「說來幼稚，當時的我對一切都不耐煩，想要去死。到了海邊，才發現死亡和我想像的不一樣。」他帶著單人帳篷獨自一人來到台東海岸露宿，沒有任何計畫，也盡可能地不與他人聯絡。一開始他感到久違的放鬆，到了第四天，內在的聲音一直膨脹，他終於崩潰了。
+        </p>
+ 
+        <p class="paragraph text-block">
+            他情不自禁的開始吼叫、唱歌、跳舞，直到力竭。任明信將這段非常逼近死亡的神秘經驗形容為「浩劫」。「那個當下，突然頓悟了，生命就是『無常』本身。」回到城市後，他彷彿重生一般，開始能夠喜歡世界了，過去的他非常討厭人群，現在卻突然覺得所有人與人間的交流，都是生命的表徵。「世界是一座花園，大家都在開花。」而這段經歷，更成為出版散文集《別人》的最大動機。
+        </p>
+ 
+        <figure class="iris">
+			<img height="auto" src="write.jpg" width="1000" style="margin-top:20px; margin-bottom: 20px"></img>
+		</figure>
+ 
+        <h3 class="subtitle text-block">創作本身便是一場旅程</h3>
+ 
+        <p class="paragraph text-block">
+            任明信說：「創作是孤獨的、脫離現實的，本身就是旅程的狀態。」在海邊的浩劫之後，任明信對於流浪有了新的想法。「真正的流浪，不用去哪裡也可以。把自己放逐在世界之外，便是流浪。」任明信認為，若我們無法跨出既定的生活空間，就算身體到了再遠的地方，看遍再多壯麗美景，都只能稱為「旅行」。
+        </p>
+ 
+        <p class="paragraph text-block">
+            訪談尾聲，問及如果可以流浪至世界的任何一個角落，會選擇何處？「哪裡都可以。」他毫不猶疑地回答。眼前的他擁有絕對自由的靈魂，提起筆，便能創造另一個宇宙。面對創作與生命中難解之課題，他仍會孤獨地前行，且步步堅定。
+        </p>
+
+ <!-- footer-->
+<div class="flex-footer">
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change" style="font-size: 25px; font-weight: bold; background-color: rgb(150, 14, 1); color:white;">
+			&nbsp;關於我們
+			</div>
+			<div class="item-aboutus" style="font-size: 18px;">
+				2019年6月27日《流浪者》預告上線，正式上線目前遙遙無期。
+				本站將帶領閱聽者看見流浪的萬般姿態，認識不同領域的「流浪者」，了解他們心之所向。
+			</div>
+		</div>
+	</div>
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change"style="font-size: 25px; font-weight: bold; background-color:rgb(150, 14, 1); color:white;">
+			&nbsp; 聯絡我們  
+			</div>
+			<div class="item-aboutus"style="padding-bottom:30px;font-size: 18px;">
+			地址：政治大學 校友中心</br>
+			電話：02-2939-3091</br>
+			信箱：wanderers@nccu.edu.tw
+			</div>
+		</div>
+	</div>
+</div>
+ 
+</article>
+</body>
+</html>
