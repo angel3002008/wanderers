@@ -1,0 +1,329 @@
+<html>
+
+<head>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.flex-container1 {
+           width: 400px;
+           height: 50px;
+           display: flex;
+           margin-left:auto;
+           margin-right:auto;
+        }
+ 
+		.flex-item1 {
+           width: 90px;
+           height: 25px;
+           margin: auto;
+           font-size:22px;
+		   font-weight:bold;
+		   color:#c71B0a ;
+           align-items:center;
+           /*padding-top:80px;*/
+		}
+
+		.flex-container2{
+               width:900px;
+               height:60px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-top:0px;
+               flex-wrap: wrap;
+               align-items: center;
+			}
+ 
+        .flex-item2{
+               width:350px;
+               height:120px;
+               display:flex;
+			} 
+ 
+           .flex-container3{
+               width:80px;
+               height:50px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               flex-wrap: wrap; 
+			}
+ 
+           .flex-item3{
+               width:40px;
+               height:40px;
+               display:flex;
+			}
+ 
+           .flex-footer{
+               width:100%;
+               height:400px;
+               display:flex;
+               margin-left:auto;
+               margin-right:auto;
+               margin-bottom:0;
+               padding-bottom:0;
+               flex-wrap: wrap;
+               justify-content: center;
+               align-items: center;
+               background-color: black;
+			}
+                
+           
+           .item-footer{
+               width:340px;
+               height:300px;
+               font-size:20px;
+               line-height:1.5;
+               margin-right:50px;
+               margin-left:50px;
+               padding-top:100px;
+               color:white;
+               display:flex;
+			}
+ 
+           .flex-aboutus{
+               width:340px;
+               height:300px;
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: flex-start;         
+			}
+ 
+           .item-aboutus{
+               width:340;
+               display:flex;
+               margin-bottom:10px;
+               text-align:justify;
+			}
+
+            
+
+		h1.title {
+			font-size:55px;
+			font-weight: bold;
+			margin-top:30px;
+			line-height: 1.5;
+			color: black;
+		}
+
+		h2.subtitle {
+           font-size: 20px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:10px;
+           width:140px;
+		   margin-left:220px;
+           margin-bottom:10px;
+        }
+
+		h3 {
+			font-size: 20px;
+			line-height: 2;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-weight: bold;
+		}
+
+		.paragraph {
+            color: #494949;
+            line-height: 2;
+            font-size: 18px;
+            margin-top: 20px;
+     	}
+
+		.author-name {
+           font-size: 20 px;
+           line-height: 0.5;
+           border-bottom:3px #c71B0a solid;
+           padding-bottom:0.03px;
+           width:60px;
+        }
+
+		.hover-color-will-change:hover {
+           color: #c71B0a
+        }   
+ 
+        .hover-nav-color-will-change:hover{
+               color:white;
+               background-color:#c71B0a;
+		}  
+ 
+        .hover-footer-color-will-change:hover{
+               color:rgb(150, 14, 1);
+               background-color: white;
+		} 
+
+		.text-block {
+			width: 800px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+		figure {
+			width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+
+		.fig-blockquote{
+			width:800px;
+			height:auto;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+
+
+		.video-audio {
+			width: 550px;
+			height: auto;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: justify;
+		}
+		
+	    ::selection {
+               background: #9e733e;
+               color: white;
+			}
+
+        ::-moz-selection {
+               background:#9e733e;
+               color: white;
+			} 
+
+		</style>
+       <title>流浪者 Wanderers</title>
+       <link rel="shortcut icon" href="logo.png">
+   </head>
+
+   <body>
+	<article style="padding-top:10px;">
+		<header>
+
+		 <!-- nav bar -->
+		 <div class="flex-container2">
+			<!-- logo -->
+		   <div class="flex-item2">
+			   <img height="120" width="120" src="logo.png" style="padding-left:40px;"></img>
+		   </div>
+		   <div class="flex-item2"style="padding-top:70px;">
+			   <div class="flex-container1">
+					   <div class="flex-item1 hover-nav-color-will-change">音樂職人</div>
+					   <div class="flex-item1 hover-nav-color-will-change">社會議題</div>
+					   <div class="flex-item1 hover-nav-color-will-change">藝界視角</div>
+		   </div>
+		   </div>
+		   </div>
+	   </div>
+
+			<!-- 小標 -->
+			<div width="800" height="50" style="margin-left:auto; margin-right:auto; margin-top:150px;">
+			<h2 class="subtitle text-block">蘭後團隊鄒佳晶</h2>
+			<!-- 大標 -->
+			<h1 class="title text-block">赴南島尋根　「蘭後」反思</br>
+			在台新住民文化認同</h1>
+
+		<title>流浪者 Wanderers</title>
+        <link rel="shortcut icon" href="logo.png">
+		</header>
+
+
+		<!-- 首圖 -->
+		<figure class="蘭後">
+			<img height="720" src="island1.jpg" width="1080" style="margin-top:40px; margin-bottom: 40px"></img>
+		</figure>
+		<div class="paragraph text-block">
+        <span><strong>文</strong></span>
+       <a href="https://www.facebook.com/PopoHsu851204" style="text-decoration:none; color:black;"><span class="author-name hover-color-will-change:hover">徐安萱</span></a>
+        <span style="margin-left:5px;"><strong>攝影</strong></span>
+       <span class="author-name hover-color-will-change:hover">鄒佳晶提供</span>
+        <span style="margin-left:20px;">2019.04.29</span>
+        </div>
+
+		<p class="paragraph text-block">
+		「蘭後」團隊成員鄒佳晶從自身新住民第二代的身份出發，以「台灣、蘭嶼、菲律賓尋根之旅」，帶領蘭嶼達悟族人到菲律賓巴丹島文化尋根，並用影像記錄文化的衝擊與融合。
+	    </p>
+
+		  <!-- 手寫抽言 -->
+		  <figure class="fig-blockquote">
+			<img width="800px;"src="island.png" style="margin-top:20px;" ></img>
+			</figure>
+
+		<h3 class="subtitle text-block">初到蘭嶼</h3>
+
+        <p class="paragraph text-block">
+		<a href="https://www.facebook.com/pg/%E8%98%AD%E5%BE%8C-1182360588494633/photos/?ref=page_internal" style="text-decoration:none; color:black;"><span class="author-name hover-color-will-change:hover">蘭後</span></a>團隊抵達蘭嶼時，正好遇上傾盆大雨，儘管頭髮、眼鏡都被雨水浸濕，鄒佳晶表示，成員們急忙著保護器材、繼續進行拍攝。終年潮濕多雨的蘭嶼，是全台灣日照時數最少的地區之一，而艷陽高照時就是男人出海捕魚、女人下田的日子。
+		</p>
+
+        <p class="paragraph text-block">
+		蘭後團隊用影像記錄蘭嶼人民恬淡樸實的生活，maran（叔叔）一早就扛著兩條大魚回家， kamnan（阿姨）在一旁幫忙；或頂著烈日在地瓜田工作，休息時刻享用著蘭嶼的主食地瓜和芋頭，對達悟族人民來說家常便飯的小事，對蘭後團隊卻是特別的經驗。成員林采璇表示，跨出自己的生活圈是很棒的經驗與挑戰。
+		</p>
+
+		<figure class="蘭後">
+			<img height="720" src="island3.jpg" width="1080" style="margin-top:20px; margin-bottom: 20px"></img>
+		</figure>
+
+        <h3 class="subtitle text-block">南島尋根</h3>
+
+		<p class="paragraph text-block">
+		鄒佳晶的母親是從菲律賓嫁到台灣的新住民，由於大眾對於新住民的刻板印象與異樣眼光，成長的過程中他總是害怕暴露自己「較特別」的身份，甚至感到自卑。他表示，從小就會講菲律賓的母語他加祿語（Tagalog）。直到去年，蘭後團隊駐點蘭嶼進行蘭花復育的田野調查，他發現達悟族的族語與菲律賓語極為相似。尋訪當地耆老才得知，相傳達悟族是從菲律賓北部的巴丹群島移居蘭嶼，因此語言、文化都很相近。
+		</p>
+
+		<p class="paragraph text-block">
+		從歷史文獻、文化遺留，都顯示蘭嶼與巴丹島的歷史淵源密切，但兩地在行政上卻被劃分成兩個不同的國家治理。曾經踏上巴丹島尋根的長者對鄒佳晶說：「你就是我們的家人啊！」鄒佳晶表示，在蘭嶼遇到很多熱心的朋友，他們總說很想回去看看祖先曾經生活過的地方。
+		</p>
+
+		<figure class="蘭後">
+			<img height="720" src="island2.jpg" width="1080" style="margin-top:20px; margin-bottom: 20px"></img>
+		</figure>
+
+		<h3 class="subtitle text-block">前進巴丹島</h3>
+	
+        <p class="paragraph text-block">
+		為了幫助更多蘭嶼青年認同自己的文化，鄒佳晶決定帶著這些新朋友前往巴丹島尋根。這趟菲律賓尋根之旅，不僅讓他踏上母親的故鄉，產生對菲律賓血緣的連結，他也希望透過尋根讓原住民朋友繼續保存蘭嶼的傳統文化，「蘭嶼，對我們來說是最像家的地方」。
+		</p>
+
+		<p class="paragraph text-block">
+		鄒佳晶表示，他在蘭嶼獲得文化上的認同、歸屬，更反思新住民二代的身份，關心新住民政策。「飽受歧視的新住民二代缺乏自我文化認同、文化底蘊，要怎麼傳承新住民的文化或是語言？」透過前往蘭嶼以及尋根計畫，他表示，這個經驗讓他深深體會到蘭嶼文化的獨特性及兼容並蓄，跨越了族群、國家的界線。
+        </p>
+
+<!-- footer-->
+<div class="flex-footer">
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change" style="font-size: 25px; font-weight: bold; background-color: rgb(150, 14, 1); color:white;">
+			&nbsp;關於我們
+			</div>
+			<div class="item-aboutus" style="font-size: 18px;">
+				2019年6月27日《流浪者》預告上線，正式上線目前遙遙無期。
+				本站將帶領閱聽者看見流浪的萬般姿態，認識不同領域的「流浪者」，了解他們心之所向。
+			</div>
+		</div>
+	</div>
+	<div class="item-footer">
+		<div class="flex-aboutus">
+			<div class="item-aboutus hover-footer-color-will-change"style="font-size: 25px; font-weight: bold; background-color:rgb(150, 14, 1); color:white;">
+			&nbsp; 聯絡我們  
+			</div>
+			<div class="item-aboutus"style="padding-bottom:30px;font-size: 18px;">
+			地址：政治大學 校友中心</br>
+			電話：02-2939-3091</br>
+			信箱：wanderers@nccu.edu.tw
+			</div>
+		</div>
+	</div>
+</div>
+ 
+</article>
+</body>
+</html>
